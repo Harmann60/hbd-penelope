@@ -13,6 +13,10 @@ export interface EngineProps {
 }
 
 export class Engine {
+  quote = new QuoteManager();
+  assets = new AssetsLoader();
+  #events = new SvelteMap();
+
   videoIntro = $state<HTMLVideoElement>();
   videoLoop = $state<HTMLVideoElement>();
   audio = $state<HTMLAudioElement>();
@@ -27,18 +31,14 @@ export class Engine {
   #isParticlesLoaded = $state<boolean>(false);
   isShowParticles = $state<boolean>(false);
   isAllowToPlay = $state(false);
+  isSkipLoading = $derived(this.assets.allCached);
 
   currentIndex = $state<number>(0);
   #defaultBgmVolume = $state<number>(0.2);
+  #dialogues = $state<string[]>([]);
 
   loadingWidth: Tween<number>;
   #bgmAudio: Tween<number>;
-
-  #dialogues = $state<string[]>([]);
-  #events = new SvelteMap();
-
-  quote = new QuoteManager();
-  assets = new AssetsLoader();
 
   constructor({ volume }: EngineProps) {
     this.#defaultBgmVolume = volume || 0.2;

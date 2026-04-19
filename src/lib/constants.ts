@@ -1,7 +1,7 @@
 import type { Asset } from '$types';
 import type { SingleOrMultiple, RecursivePartial, IOptions } from '@tsparticles/engine';
 
-export const ASSETS_CACHE_KEY = 'assets';
+export const ASSETS_CACHE_KEY = 'assets/v1';
 
 // dialogue assets data.
 export const DIALOGUES = [
