@@ -1,20 +1,17 @@
 import adapter from '@sveltejs/adapter-vercel';
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  // Consult https://kit.svelte.dev/docs/integrations#preprocessors
-  // for more information about preprocessors
-  preprocess: vitePreprocess(),
-
+  compilerOptions: {
+    // Force runes mode for the project, except for libraries. Can be removed in svelte 6.
+    runes: ({ filename }) => (filename.split(/[/\\]/).includes('node_modules') ? undefined : true)
+  },
   kit: {
-    // adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.
-    // If your environment is not supported, or you settled on a specific environment, switch out the adapter.
-    // See https://kit.svelte.dev/docs/adapters for more information about adapters.
     adapter: adapter(),
     alias: {
-      $components: 'src/components',
-      $types: 'src/lib/types.d.ts'
+      $components: 'src/lib/components',
+      $hooks: 'src/lib/hooks',
+      $types: 'src/lib/types.ts'
     }
   }
 };

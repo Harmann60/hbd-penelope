@@ -1,9 +1,13 @@
-<script>
-  import '../app.css';
+<script lang="ts">
+  import './layout.css';
+  import favicon from '$lib/assets/favicon.png';
+  import { DialogueProvider } from '$components/ui/dialogue';
+
+  let { children } = $props();
 
   const META_TITLE = 'Happy Birthday, Kiizuha!';
   const META_DESC = 'A birthday wishes website made for Kiizuha Kanazawa';
-  const META_IMG = '/favicon.png';
+  const META_IMG = favicon;
 </script>
 
 <svelte:head>
@@ -19,8 +23,9 @@
   <meta name="twitter:description" content={META_DESC} />
   <meta name="twitter:image" content={META_IMG} />
   <meta name="twitter:image:alt" content={META_IMG} />
+  <link rel="icon" href={favicon} />
 </svelte:head>
 
-<main class="relative flex min-h-screen w-screen select-none font-sans">
-  <slot />
-</main>
+<DialogueProvider>
+  {@render children()}
+</DialogueProvider>
