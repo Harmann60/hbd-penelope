@@ -6,7 +6,7 @@ export const ASSETS_CACHE_KEY = 'assets/v1';
 // dialogue assets data.
 export const DIALOGUES = [
   {
-    text: 'Kiizuha-sensei! bukankah hari ini adalah hari ulang tahunmu?',
+    text: 'Penny-chan! bukankah hari ini adalah hari ulang tahunmu?',
     audio: '/audio/1.wav',
     playAfter: 0,
     choices: [
@@ -17,7 +17,7 @@ export const DIALOGUES = [
     ]
   },
   {
-    text: 'Kenapa kamu terlihat murung, Kiizuha-sensei?',
+    text: 'Kenapa kamu terlihat murung, Penny-chan?',
     audio: '/audio/2.wav',
     playAfter: 300,
     choices: [
@@ -42,7 +42,7 @@ export const DIALOGUES = [
     ]
   },
   {
-    text: 'Tidak apa-apa, aku akan menemani kamu hari ini, Kiizuha-sensei!',
+    text: 'Tidak apa-apa, aku akan menemani kamu hari ini, Penny-chan!',
     audio: '/audio/4.wav',
     playAfter: 300,
     choices: []
@@ -54,7 +54,7 @@ export const DIALOGUES = [
     choices: []
   },
   {
-    text: 'Kiizuha-sensei! selamat ulang tahun yang ke-{age}!',
+    text: 'Penny-chan! selamat ulang tahun yang ke-{age}!',
     audio: '/audio/6.wav',
     playAfter: 500,
     choices: []

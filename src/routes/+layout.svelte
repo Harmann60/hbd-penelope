@@ -5,8 +5,8 @@
 
   let { children } = $props();
 
-  const META_TITLE = 'Happy Birthday, Kiizuha!';
-  const META_DESC = 'A birthday wishes website made for Kiizuha Kanazawa';
+  const META_TITLE = 'Happy Birthday, Penny!';
+  const META_DESC = 'A birthday wishes website made for Penny';
   const META_IMG = favicon;
 </script>
 
