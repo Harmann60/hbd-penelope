@@ -6,84 +6,84 @@ export const ASSETS_CACHE_KEY = 'assets/v1';
 // dialogue assets data.
 export const DIALOGUES = [
   {
-    text: 'Penny-chan! bukankah hari ini adalah hari ulang tahunmu?',
+    text: 'Penny-chan! Hindi ba\'t ngayon na ang kaarawan mo?',
     audio: '/audio/1.wav',
     playAfter: 0,
     choices: [
       {
-        text: 'Ya...',
+        text: 'Oo...',
         selected: false
       }
     ]
   },
   {
-    text: 'Kenapa kamu terlihat murung, Penny-chan?',
+    text: 'Bakit ka mukhang malungkot, Penny-chan?',
     audio: '/audio/2.wav',
     playAfter: 300,
     choices: [
       {
-        text: 'Tidak apa-apa, Alice.',
+        text: 'Wala lang, Alice.',
         selected: false
       }
     ]
   },
   {
-    text: 'Dimana teman-teman kamu? apakah mereka semua sibuk di hari ulang tahun kamu?',
+    text: 'Nasaan ang mga kaibigan mo? Busy ba sila lahat sa kaarawan mo?',
     audio: '/audio/3.wav',
     playAfter: 500,
     choices: [
       {
-        text: 'Ku pikir begitu...',
+        text: 'Sa tingin ko...',
         selected: false
       },
       {
-        text: 'Tidak juga.'
+        text: 'Hindi naman.'
       }
     ]
   },
   {
-    text: 'Tidak apa-apa, aku akan menemani kamu hari ini, Penny-chan!',
+    text: 'Wala \'yang problema! Ako ang makakasama mo buong araw ngayon, Penny-chan!',
     audio: '/audio/4.wav',
     playAfter: 300,
     choices: []
   },
   {
-    text: 'Ah! aku hampir lupa!',
+    text: 'Alam mo ba, limang taon na tayong magkaibigan! Kahit magkalayo tayo—ikaw sa Pilipinas, ako sa India—hindi naging hadlang \'yan para sa atin.',
     audio: '/audio/5.wav',
     playAfter: 600,
     choices: []
   },
   {
-    text: 'Penny-chan! selamat ulang tahun yang ke-{age}!',
+    text: 'Ah! Muntik ko nang makalimutan!',
     audio: '/audio/6.wav',
     playAfter: 500,
     choices: []
   },
   {
-    text: 'Semoga sensei makin sehat, sukses dalam berkarir, dan cepat tercapai apa yang sensei capai, seperti mempunyai PC gaming!',
+    text: 'Penny-chan! Maligayang ika-{age} na kaarawan!',
     audio: '/audio/7.wav',
     playAfter: 500,
     choices: []
   },
   {
-    text: 'Dan tentu! semoga kamu makin ganteng ya ☺️',
+    text: 'Sana\'y manatili kang malusog at masaya, at makamit mo ang lahat ng mga pangarap mo—kasama na ang paglalakbay sa buong mundo!',
     audio: '/audio/8.wav',
     playAfter: 500,
     choices: []
   },
   {
-    text: 'Itu saja, sensei! Maaf, aku tidak tahu apa yang harus diucapkan lagi...',
+    text: 'At balang araw, kapag nagkita na tayo, sabay nating gagawin \'yan. Pangako!',
     audio: '/audio/9.wav',
     playAfter: 500,
     choices: [
       {
-        text: 'Wahh! terima kasih sudah mengucapkan selamat ulang tahun untukku!',
+        text: 'Wahh! Salamat, Alice! Siguradong mangyayari \'yan!',
         selected: false
       }
     ]
   },
   {
-    text: 'Baik! ayo kita bermain bersama sepanjang hari!',
+    text: 'Sige! Araw mo \'to—maglaro tayo at magsaya nang buong araw, Penny-chan!',
     audio: '/audio/10.wav',
     playAfter: 500,
     choices: []

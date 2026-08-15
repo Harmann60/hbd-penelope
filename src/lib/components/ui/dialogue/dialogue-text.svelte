@@ -19,7 +19,7 @@
 
   const dialogue = $derived.by(() => {
     const text = DIALOGUES[engine.currentIndex].text;
-    const age = calculateAge('2001-07-01'); // 01 July 2001 (YYYY-MM-DD)
+    const age = calculateAge('2005-08-15'); // 15 August 2005 (YYYY-MM-DD)
     return text.replace('{age}', age.toString());
   });
 </script>
