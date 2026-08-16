@@ -1,9 +1,5 @@
 # 🎂 Happy Birthday, Penny-chan!
 
-> A heartfelt digital birthday wish, told by **Tendou Arisu (Alice)** — for a friend
-> across the ocean, from India to the Philippines. Five years of online friendship,
-> a promise to finally meet, and a dream to see the whole world together. 🌏
-
 An interactive, anime-style birthday web experience built with **SvelteKit** — featuring
 a cinematic loading sequence, a fully-voiced visual-novel style dialogue with player
 choices, and a Live2D video scene of Alice herself.
