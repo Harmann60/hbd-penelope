@@ -1,4 +1,4 @@
-# 🎂 Happy Birthday, Penny-chan!
+# Penny-chan!
 
 An interactive, anime-style birthday web experience built with **SvelteKit** — featuring
 a cinematic loading sequence, a fully-voiced visual-novel style dialogue with player
