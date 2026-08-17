@@ -117,11 +117,9 @@ configured CI deploy it automatically.
 
 ## 🙏 Credits
 
-- **Penny** — the inspiration. Happy birthday from across the ocean. 🌷
+- **Penny** —  from across the ocean. 🌷
 - **Tendou Arisu** — the lovable speaker, from *Blue Archive* (image is Live2D fan art).
 - **Original project** — this site is an adapted fork of the **hbd-kizu** project by
   Kiizuha (rushkii). Thanks for the beautiful foundation!
 
 ---
-
-Made with 💛, from one friend to another.
